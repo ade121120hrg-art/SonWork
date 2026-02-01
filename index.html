@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SonWork</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-950 text-white">
+
+  <!-- NAVBAR -->
+  <nav class="fixed w-full top-0 z-50 bg-slate-950/70 backdrop-blur border-b border-white/10">
+    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+
+      <h1 class="font-extrabold text-xl tracking-tight">
+        Son<span class="text-blue-500">Work</span>
+      </h1>
+
+      <div class="hidden md:flex gap-8 text-sm text-slate-300">
+        <a href="#projects" class="hover:text-white transition">Projects</a>
+        <a href="#writing" class="hover:text-white transition">Writing</a>
+        <a href="#gallery" class="hover:text-white transition">Gallery</a>
+        <a href="#contact" class="hover:text-white transition">Contact</a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="pt-32 pb-24 text-center px-6">
+    <div class="max-w-4xl mx-auto">
+
+      <p class="inline-block px-4 py-2 rounded-full bg-blue-500/10 text-blue-400 text-sm font-semibold mb-6">
+        Portfolio Digital Premium
+      </p>
+
+      <h2 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+        Build Your Future With <br />
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">
+          SonWork UI
+        </span>
+      </h2>
+
+      <p class="text-slate-400 text-lg max-w-2xl mx-auto mb-10">
+        SonWork adalah portofolio modern untuk menampilkan produk digital,
+        tulisan, dan karya visual dengan tampilan profesional.
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4">
+        <a href="#contact"
+          class="px-8 py-3 rounded-full bg-blue-600 hover:bg-blue-700 transition font-semibold">
+          Hubungi Saya
+        </a>
+
+        <a href="#projects"
+          class="px-8 py-3 rounded-full border border-white/20 hover:border-white/40 transition font-semibold">
+          Lihat Karya
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main class="max-w-6xl mx-auto px-6 space-y-28 pb-28">
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h3 class="text-3xl font-bold mb-10">
+        Produk Digital
+      </h3>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- Card -->
+        <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-blue-500/50 transition">
+          <i class="fa-solid fa-mobile-screen text-4xl text-blue-400 mb-6"></i>
+          <h4 class="text-xl font-bold mb-3">TaskFlow App</h4>
+          <p class="text-slate-400 mb-6">
+            Aplikasi manajemen tugas modern dengan integrasi AI otomatisasi workflow.
+          </p>
+          <a href="#" class="text-blue-400 font-semibold hover:underline">
+            Detail →
+          </a>
+        </div>
+
+        <!-- Card -->
+        <div class="p-8 rounded-3xl bg-white/5 border border-white/10 hover:border-indigo-500/50 transition">
+          <i class="fa-solid fa-cart-shopping text-4xl text-indigo-400 mb-6"></i>
+          <h4 class="text-xl font-bold mb-3">EcoStore UI</h4>
+          <p class="text-slate-400 mb-6">
+            UI toko online minimalis dengan pengalaman pengguna premium dan cepat.
+          </p>
+          <a href="#" class="text-indigo-400 font-semibold hover:underline">
+            Detail →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WRITING -->
+    <section id="writing">
+      <h3 class="text-3xl font-bold mb-10">
+        Karya Tulisan
+      </h3>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-400/50 transition">
+          <h4 class="font-bold mb-3">
+            Masa Depan UI Design di Era AI
+          </h4>
+          <p class="text-slate-400 text-sm">
+            Peran desainer berubah dari kreator menjadi kurator dengan AI generatif.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-indigo-400/50 transition">
+          <h4 class="font-bold mb-3">
+            Psikologi Warna dalam Branding
+          </h4>
+          <p class="text-slate-400 text-sm">
+            Mengapa warna menentukan emosi dan kepercayaan dalam produk digital.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-400/50 transition">
+          <h4 class="font-bold mb-3">
+            Workflow Produktif Remote Worker
+          </h4>
+          <p class="text-slate-400 text-sm">
+            Cara mengatur waktu dan fokus ketika bekerja sepenuhnya dari rumah.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h3 class="text-3xl font-bold mb-10">
+        Galeri Visual
+      </h3>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+
+        <img class="rounded-2xl hover:scale-105 transition"
+          src="https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=500&q=80" />
+
+        <img class="rounded-2xl hover:scale-105 transition"
+          src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=500&q=80" />
+
+        <img class="rounded-2xl hover:scale-105 transition"
+          src="https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=500&q=80" />
+
+        <img class="rounded-2xl hover:scale-105 transition"
+          src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=500&q=80" />
+
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="rounded-[3rem] bg-gradient-to-r from-blue-600/20 to-indigo-600/10 border border-white/10 p-12">
+      <h3 class="text-3xl font-bold mb-4">
+        Mari Berkolaborasi 🚀
+      </h3>
+      <p class="text-slate-300 mb-8 max-w-xl">
+        Hubungi saya untuk proyek website, desain UI, atau kolaborasi digital.
+      </p>
+
+      <div class="flex gap-4 text-2xl">
+        <a href="#" class="hover:text-blue-400 transition"><i class="fab fa-github"></i></a>
+        <a href="#" class="hover:text-pink-400 transition"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-blue-300 transition"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="py-10 text-center text-slate-500 text-sm border-t border-white/10">
+    © 2026 SonWork Portfolio — Built for GitHub Pages
+  </footer>
+
+</body>
+</html>
